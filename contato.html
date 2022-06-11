@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CAMISAS </title>
+    <link rel="stylesheet" type="text/css" href="estilos2.css" /> <!--link html com css -->
+</head>
+    <header>
+        <section id="meioheader" class="main"> <!-- ID: Identificar sessão para usar no css -->
+            <div id="logo"><span> CAMISAS LENDÁRIAS </span> </div> 
+            <nav>
+                <a href="index.html"class="selectedMenu">Home</a> <!-- criar link no cabeçalho -->
+                <a href="camisas.html">Camisas</a>
+                <a href="contato.html">Contato</a>
+            </nav>
+        </section>
+
+    <br>
+    <h2> DADOS PARA CONTATO </h2>
+    <br>    
+<section>
+    <form action="XX" method="post">
+        <fieldset class="formulario">
+            <legend>Cadastro</legend>
+            <br>
+            <label class="tit" for="nome">Nome:</label> <br>
+            <input type="text" name="NomeTut" id="nomeTut" size="50px" required placeholder="Nome completo" />
+            <br>
+            <label class="tit" for="dataNascimento">Data Nascimento:</label> <br>
+            <input type="date" name="dataNascimento" id="dataNascimento" placeholder=" XX/XX/XX" />
+            <br>
+            <label class="tit" for="sexo">Sexo:</label> <br>
+            <input type="radio" name="sexo" value="F" id="sexoFeminino" /><label for="sexoMasculino">Masculino</label>
+            <input type="radio" name="sexo" value="M" id="sexoMasculino" /><label
+                for="sexoFeminino">Feminino</label>
+            <br>
+            <label class="tit" for="interesse">Interesse:</label> <br>
+            <select name="interesse" id="interesse"> <br>
+                <option value="curiosidades">Curiosidades</option>
+                <option value="campeonatos">Campeonatos</option>
+                <option value="outrosAssuntos">Outros Assuntos</option>
+            </select>
+            <br>
+            <label class="tit" for="contato">Contato:</label> <br>
+            <input type="checkbox" name="telefone" id="telefone" /><label for="telefone">Telefone</label>
+            <input type="checkbox" name="email" id="email" /><label for="email">E-mail</label>
+            <input type="text" name="contato" id="contato" />
+            <br>
+            <input name="btnEnvio" type="submit" value="Enviar" />
+
+            <!-- Código para dar espaço entre os elementos -->
+            &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;
+            <input name="btnReset" type="reset" value="Limpar" />
+        </fieldset>
+    </form>
+</section>
+<br>
+<footer> © Gabriel Donizete | RGM: 29124727 | Análise e Desenvolvimento de Sistemas </footer>
+
+</body>
+
+</html>
